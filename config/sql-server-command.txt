@@ -1,0 +1,4 @@
+start container sql: docker start sql1;
+start bash shell: sudo docker exec -it sql1 "bash"
+connect to db: /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "@16021999538826aA"
+sql command to list all tables: select * from TuHocNodeJS.information_schema.tables
